@@ -36,21 +36,21 @@ touch themes/_admin.scss
 touch main.scss
 
 echo "
-@import 'abstracts/variables'
-@import 'abstracts/functions'
-@import 'abstracts/mixins'
-@import 'abstracts/placeholders'\n
-@import 'base/reset'
-@import 'base/typography'\n
-@import 'components/buttons'
-@import 'layout/_navigation'
-@import 'layout/_grid'
-@import 'layout/_header'
-@import 'layout/_footer'
-@import 'layout/_forms'\n
-@import 'pages/_home'\n
-@import 'themes/_theme'
-@import 'themes/_admin'
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders'; \n
+@import 'base/reset';
+@import 'base/typography'; \n
+@import 'components/buttons';
+@import 'layout/_navigation';
+@import 'layout/_grid';
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'layout/_forms'; \n
+@import 'pages/_home'; \n
+@import 'themes/_theme';
+@import 'themes/_admin';
 	"  > main.scss
 	
 echo "

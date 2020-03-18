@@ -6,7 +6,7 @@ The Sass 7-1 Pattern Script creates the 7-1 basic structure including files via 
 
 Download/Copy the scss_boilerplate.sh into your projectfolder
 
-Run the follwoings commands in your Projectfolder
+Run the commands in your Projectfolder
 
 ```bash
 chmod 755 scss_boilerplate.sh 

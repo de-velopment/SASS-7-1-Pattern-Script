@@ -43,14 +43,14 @@ echo "
 @import 'base/reset';
 @import 'base/typography'; \n
 @import 'components/buttons';
-@import 'layout/_navigation';
-@import 'layout/_grid';
-@import 'layout/_header';
-@import 'layout/_footer';
-@import 'layout/_forms'; \n
-@import 'pages/_home'; \n
-@import 'themes/_theme';
-@import 'themes/_admin';
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms'; \n
+@import 'pages/home'; \n
+@import 'themes/theme';
+@import 'themes/admin';
 	"  > main.scss
 	
 echo "
@@ -77,6 +77,12 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 // HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,

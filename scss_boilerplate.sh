@@ -10,8 +10,6 @@ mkdir layout
 mkdir pages
 mkdir themes
 
-
-
 touch abstracts/_variables.scss
 touch abstracts/_functions.scss
 touch abstracts/_mixins.scss
@@ -19,6 +17,8 @@ touch abstracts/_placeholders.scss
 
 touch base/_reset.scss
 touch base/_typography.scss
+touch base/_breakpoints.scss
+touch base/_fonts.scss
 
 touch components/_buttons.scss
 
@@ -27,6 +27,8 @@ touch layout/_grid.scss
 touch layout/_header.scss
 touch layout/_footer.scss
 touch layout/_forms.scss
+touch layout/_breadcrumb.scss 
+
 
 touch pages/_home.scss
 
@@ -39,16 +41,25 @@ echo "
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
-@import 'abstracts/placeholders'; \n
+@import 'abstracts/placeholders'; \n\n
+
 @import 'base/reset';
-@import 'base/typography'; \n
-@import 'components/buttons';
+@import 'base/typography'; 
+@import 'base/breakpoints';
+@import 'base/fonts.scss'; \n\n
+
+
+@import 'components/buttons'; \n\n
+
 @import 'layout/navigation';
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/forms'; \n
-@import 'pages/home'; \n
+@import 'layout/forms';
+@import 'layout/breadcrumb'; \n\n
+
+@import 'pages/home'; \n\n
+
 @import 'themes/theme';
 @import 'themes/admin';
 	"  > main.scss

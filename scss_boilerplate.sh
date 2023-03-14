@@ -41,24 +41,24 @@ echo "
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
-@import 'abstracts/placeholders'; \n\n
+@import 'abstracts/placeholders'; \n
 
 @import 'base/reset';
 @import 'base/typography'; 
 @import 'base/breakpoints';
-@import 'base/fonts.scss'; \n\n
+@import 'base/fonts.scss'; \n
 
 
-@import 'components/buttons'; \n\n
+@import 'components/buttons'; \n
 
 @import 'layout/navigation';
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/forms';
-@import 'layout/breadcrumb'; \n\n
+@import 'layout/breadcrumb'; \n
 
-@import 'pages/home'; \n\n
+@import 'pages/home'; \n
 
 @import 'themes/theme';
 @import 'themes/admin';
